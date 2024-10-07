@@ -1,8 +1,13 @@
 # klipper-config
 
-This repo holds the Klipper configuration files for my Ender 3 Pro. My printer has the following mods:
+This repo holds the Klipper configuration files for my Ender of Theseus (Ender 3 Pro). My printer has the following mods:
  - BigTreeTech (BTT) SKR Mini E3 V2.0
- - BL Touch
+ - Beacon3D Eddy Current Bed Level Sensor + Accelerometer
+ - Dual-Z mod
+ - Logitech C270 webcam
+ - MicroSwiss NG REVO
+ - Squash ball feet
+ - Linear rails on x and y axis
  - BigTreeTech Smart Filament Sensor (not currently present in config)
 
 ## Organization
@@ -24,7 +29,6 @@ The `macros.cfg` file contains a `G29` shim, which translates Marlin-style `G29`
 
 - [x] Remove bed chain holder
 - [x] re-level bed
-- [ ] get bl touch offset closer to 1mm if possible
 - [ ] turn start up process into macro
 - [ ] remove unneccessary travel during start up process
 - [ ] measure accel for x axis
@@ -48,3 +52,4 @@ The `macros.cfg` file contains a `G29` shim, which translates Marlin-style `G29`
 - [x] 3 point bed leveling???
 - [ ] second hotend
 - [x] filament dry box out of the rest of the printer stand/frame
+- [ ] Dual-z tilt correction for X-gantry 
